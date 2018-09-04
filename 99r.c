@@ -1,4 +1,6 @@
-		 #include<reg51.h>
+// we have two seven segment display on this project named as seg and seg1
+
+#include<reg51.h>
 		 #include<stdio.h>
 		 #define seg P1	 
 		 #define seg1 P2
@@ -14,7 +16,7 @@
       }
 		 void main()
 		 {
-		 P1=0x00;
+		 P1=0x00; // basic pin configuration
 		 P2=0x00;
 		 P3=0x00;
 		 P0=0x00;
